@@ -1,0 +1,13 @@
+#查看 git 提交版本
+git reflog
+	
+#恢复到某个版本
+git reset --hard 681c3b5
+
+#回退一个版本
+git reset --hard HEAD~/HEAD^
+
+#查看日志
+git log --pretty=oneline
+
+
