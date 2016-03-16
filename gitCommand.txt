@@ -1,3 +1,9 @@
+#git 提交文件
+git commit -m "gitCommand.txt 添加git Command 命令"
+
+#git 添加文件
+git add gitCommand.txt
+
 #查看 git 提交版本
 git reflog
 	
