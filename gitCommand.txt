@@ -20,6 +20,24 @@ git log --pretty=oneline
 git checkout -- readme.txt
 git checkout readme.txt
 
+#删除文件
+rm b.txt
+git rm b.txt
+git commit -m "delete b.txt"
+
+#本地 git ssh
+ssh-keygen -t rsa -C "yangruibing68@163.com"
+
+#本地git 连接远程 github 服务器
+	1. 建立 github 账号；
+	2. setting 中设置 ssh Key ，需要设置 title 和 本地 git pub 文件中的内容
+	3. create a new repo 
+	4. 本地 git 下运行： git remote add origin https://github.com/bingbing2016/testgit.git
+	5. git push -u origin master  ，<bingbing2016/bingbing2012>
+
+	
+	
+
 
 
 
