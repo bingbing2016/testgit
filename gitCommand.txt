@@ -34,10 +34,19 @@ ssh-keygen -t rsa -C "yangruibing68@163.com"
 	3. create a new repo 
 	4. 本地 git 下运行： git remote add origin https://github.com/bingbing2016/testgit.git
 	5. git push -u origin master  ，<bingbing2016/bingbing2012>
-
+	6. 每次本地更改完文件，缓冲区提交后，运行 git push origin master 将文件更新到 github 服务器
 	
-	
+#克隆 github 到本地
+git clone https://github.com/bingbing2016/testgit2
 
+#创建并切换分支
+git checkout -b dev
 
+#创建分支
+git branch test
 
+#切换分支
+git checkout dev
 
+#查看分支
+git branch
